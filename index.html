@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>John Ang Jing Hern · Economics @ SMU · Markets Research · iOS Developer</title>
+  <meta name="description" content="John Ang Jing Hern is an Economics undergraduate at Singapore Management University and Latin America analyst at SMU Emerging Markets, with a background in iOS development (Swift, SwiftUI) and recruitment. Open to 2027 internships in investment research, markets and strategy.">
+  <meta name="author" content="John Ang Jing Hern">
+  <link rel="canonical" href="https://johnangjh.github.io/">
+
+  <!-- Link previews (LinkedIn, WhatsApp, Slack, X) -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="John Ang Jing Hern · Economics @ SMU">
+  <meta property="og:description" content="Markets research and iOS development. Open to 2027 internships in investment research, markets and strategy.">
+  <meta property="og:url" content="https://johnangjh.github.io/">
+  <meta property="og:image" content="https://johnangjh.github.io/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="profile:first_name" content="John">
+  <meta property="profile:last_name" content="Ang">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="theme-color" content="#0c0e12" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f4ef" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+    document.documentElement.classList.add('js');
+    try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    // Safety net: if script.js fails to load, show everything instead of a blank page
+    setTimeout(function () { if (!window.__siteReady) document.documentElement.classList.remove('js'); }, 3000);
+  </script>
+
+  <!-- Structured data: lets search engines and AI tools read the key facts reliably -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "John Ang Jing Hern",
+    "alternateName": "John Ang",
+    "url": "https://johnangjh.github.io/",
+    "image": "https://johnangjh.github.io/assets/og-image.jpg",
+    "email": "mailto:john.ang.jing.hern@gmail.com",
+    "jobTitle": "Economics Undergraduate and Latin America Analyst",
+    "description": "Economics undergraduate at Singapore Management University and Latin America analyst at SMU Emerging Markets, with experience in iOS development and recruitment. Open to 2027 internships in investment research, markets and strategy.",
+    "address": { "@type": "PostalAddress", "addressLocality": "Singapore", "addressCountry": "SG" },
+    "affiliation": { "@type": "Organization", "name": "SMU Emerging Markets" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "Singapore Management University" },
+      { "@type": "EducationalOrganization", "name": "Singapore Polytechnic" }
+    ],
+    "knowsAbout": ["Macroeconomic research", "Industry research", "Equity research", "Fundamental analysis", "Latin American markets", "Commodities", "Swift", "SwiftUI", "iOS development", "Design thinking", "Recruitment", "Claude AI"],
+    "knowsLanguage": ["English", "Mandarin Chinese"],
+    "hasCredential": [
+      { "@type": "EducationalOccupationalCredential", "name": "IBF CMFAS Modules 4 and 4A", "credentialCategory": "Professional certification" },
+      { "@type": "EducationalOccupationalCredential", "name": "Claude 101: Pathway to Claude Certified Architect – Foundations (Claude Singapore Community × ClaudeLabs)", "credentialCategory": "Certificate of participation" }
+    ],
+    "sameAs": ["https://www.linkedin.com/in/johnangjh"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="wrap nav__inner">
+      <a href="#top" class="brand" aria-label="John Ang, back to top">
+        <span class="brand__mark">JA</span>
+        <span class="brand__name">John Ang</span>
+      </a>
+      <nav class="nav__links" aria-label="Sections">
+        <a href="#snapshot">Snapshot</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch colour theme">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.2A8.5 8.5 0 0 1 9.8 3.5a8.5 8.5 0 1 0 10.7 10.7z"/></svg>
+        </button>
+        <a class="btn btn--small" href="assets/John_Ang_Jing_Hern_Resume.pdf" download>Résumé</a>
+        <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <a href="#snapshot">Snapshot</a>
+      <a href="#experience">Experience</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow load" style="--d:0"><span class="pulse" aria-hidden="true"></span>Open to 2027 internships · Singapore</p>
+          <h1 class="hero__title">
+            <span class="line"><span class="load" style="--d:1">John Ang</span></span>
+            <span class="line"><span class="load serif-i" style="--d:2">Jing Hern</span></span>
+          </h1>
+          <p class="hero__tagline load" style="--d:3">I research markets like an analyst and build like an engineer.</p>
+          <p class="hero__lede load" style="--d:4">
+            Economics undergraduate at <strong>Singapore Management University</strong>. I cover Latin America for SMU Emerging Markets, finished in the <strong>top 10%</strong> of the Fullerton&nbsp;/&nbsp;SGX Value-Up equities challenge, and taught myself Swift to ship an iOS app <strong>three months ahead of schedule</strong>.
+          </p>
+          <p class="now load" style="--d:5">
+            <span class="now__label">Now</span>
+            <span class="rotator" id="rotator" aria-hidden="true">
+              <span>LatAm analyst, SMU Emerging Markets</span>
+            </span>
+            <span class="sr-only">Latin America analyst at SMU Emerging Markets; Economics undergraduate at SMU; self-taught iOS developer; former recruiter at Great Eastern.</span>
+          </p>
+          <div class="hero__cta load" style="--d:6">
+            <a class="btn btn--primary magnetic" href="#work">See my work <span aria-hidden="true">↓</span></a>
+            <a class="btn" href="assets/John_Ang_Jing_Hern_Resume.pdf" download>Download résumé <span class="muted">PDF</span></a>
+            <a class="btn btn--ghost" href="https://www.linkedin.com/in/johnangjh" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <!-- Career "index" chart: a playful take on a price chart -->
+        <figure class="chart-card load" style="--d:3" aria-labelledby="chartCap">
+          <div class="chart-card__head">
+            <div>
+              <p class="mono tiny muted">JAJH.SG · Career index</p>
+              <p class="chart-card__value"><span id="cxValue">288.0</span> <span class="up" id="cxChange">▲ +188%</span></p>
+            </div>
+            <p class="mono tiny muted" id="cxDate">Now</p>
+          </div>
+          <div class="chart-card__readout" id="cxReadout" aria-live="polite">
+            <strong>Open to 2027 internships</strong>
+            <span>Investment research, markets &amp; strategy.</span>
+          </div>
+          <svg class="cx" id="careerChart" viewBox="0 0 600 300" role="img" tabindex="0" aria-label="Interactive career timeline chart. Use left and right arrow keys to move between milestones.">
+            <defs>
+              <linearGradient id="cxFill" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="0" stop-color="var(--accent)" stop-opacity=".28"/>
+                <stop offset="1" stop-color="var(--accent)" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <g class="cx__grid"></g>
+            <path class="cx__area" d=""/>
+            <path class="cx__line" d=""/>
+            <g class="cx__dots"></g>
+            <line class="cx__cross" x1="0" x2="0" y1="0" y2="300"/>
+            <circle class="cx__focus" r="6" cx="-20" cy="-20"/>
+            <g class="cx__axis"></g>
+          </svg>
+          <figcaption class="mono tiny muted" id="chartCap">Hover or drag across the chart to explore milestones. Not investment advice.</figcaption>
+          <ol class="sr-only">
+            <li>Apr 2020: Started Diploma in Engineering with Business, Singapore Polytechnic.</li>
+            <li>Feb 2022: Heartland Innovation Competition; growth proposal accepted by Fun Learners School.</li>
+            <li>Sep 2022: Application Developer Intern at Pepperl+Fuchs; shipped iOS app about 3 months early.</li>
+            <li>Feb 2023: Recruitment Officer and Marketing Associate at Great Eastern.</li>
+            <li>Apr 2023: Graduated Singapore Polytechnic with CGPA 3.70.</li>
+            <li>2025: Passed IBF CMFAS Modules 4 and 4A.</li>
+            <li>Aug 2025: Started BSc Economics at SMU and joined SMU Emerging Markets as Latin America analyst.</li>
+            <li>Jan 2026: Authored Colombia macro brief for the FMCG sector.</li>
+            <li>Mar 2026: Top 10% in the Fullerton / SGX Value-Up Singapore Equities Challenge.</li>
+          </ol>
+        </figure>
+      </div>
+      <a href="#snapshot" class="scroll-cue" aria-label="Scroll to snapshot"><span></span></a>
+    </section>
+
+    <!-- ============ TICKER ============ -->
+    <div class="ticker" aria-label="Highlights">
+      <div class="ticker__track">
+        <ul class="ticker__list">
+          <li><b>SGX VALUE-UP</b> TOP 10% <i class="up">▲</i></li>
+          <li><b>iOS APP</b> ~3 MO AHEAD OF SCHEDULE <i class="up">▲</i></li>
+          <li><b>SP CGPA</b> 3.70 / 4.00 <i class="up">▲</i></li>
+          <li><b>CHILE CU</b> 24% OF GLOBAL SUPPLY</li>
+          <li><b>COLOMBIA CPI</b> 13% → 6% <i class="up">▼</i></li>
+          <li><b>IBF CMFAS</b> M4 · M4A <i class="up">✓</i></li>
+          <li><b>CLAUDE 101</b> COMPLETED <i class="up">✓</i></li>
+          <li><b>LANG</b> ENGLISH · 中文</li>
+        </ul>
+        <ul class="ticker__list" aria-hidden="true">
+          <li><b>SGX VALUE-UP</b> TOP 10% <i class="up">▲</i></li>
+          <li><b>iOS APP</b> ~3 MO AHEAD OF SCHEDULE <i class="up">▲</i></li>
+          <li><b>SP CGPA</b> 3.70 / 4.00 <i class="up">▲</i></li>
+          <li><b>CHILE CU</b> 24% OF GLOBAL SUPPLY</li>
+          <li><b>COLOMBIA CPI</b> 13% → 6% <i class="up">▼</i></li>
+          <li><b>IBF CMFAS</b> M4 · M4A <i class="up">✓</i></li>
+          <li><b>CLAUDE 101</b> COMPLETED <i class="up">✓</i></li>
+          <li><b>LANG</b> ENGLISH · 中文</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ============ 01 SNAPSHOT ============ -->
+    <section class="section" id="snapshot" aria-labelledby="snapshot-h">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <p class="sec-num">01 — Snapshot</p>
+          <h2 id="snapshot-h">The 30-second version</h2>
+          <p class="sec-sub">I've screened candidates myself, so I know your time is short. Everything that matters, in one place.</p>
+        </header>
+
+        <div class="snap">
+          <div class="snap__stats">
+            <div class="stat reveal" style="--d:0">
+              <p class="stat__num"><span>Top </span><span class="count" data-to="10">10</span><span>%</span></p>
+              <p class="stat__label">Fullerton / SGX Value-Up Singapore Equities Challenge</p>
+            </div>
+            <div class="stat reveal" style="--d:1">
+              <p class="stat__num"><span>~</span><span class="count" data-to="3">3</span><span class="stat__unit">months</span></p>
+              <p class="stat__label">ahead of schedule as sole developer of an iOS app</p>
+            </div>
+            <div class="stat reveal" style="--d:2">
+              <p class="stat__num"><span class="count" data-to="2">2</span><span class="stat__unit">briefs</span></p>
+              <p class="stat__label">LatAm research: Colombia macro (FMCG) and Chilean copper</p>
+            </div>
+            <div class="stat reveal" style="--d:3">
+              <p class="stat__num"><span class="count" data-to="3.70" data-dec="2">3.70</span></p>
+              <p class="stat__label">Diploma CGPA, Singapore Polytechnic (out of 4.00)</p>
+            </div>
+          </div>
+
+          <dl class="sheet reveal" style="--d:1">
+            <div><dt>Studying</dt><dd>BSc Economics, Singapore Management University · Aug 2025 – 2029 (expected)</dd></div>
+            <div><dt>Looking for</dt><dd>2027 internships in investment research, markets &amp; strategy</dd></div>
+            <div><dt>Based in</dt><dd>Singapore</dd></div>
+            <div><dt>Strengths</dt><dd>Macro &amp; industry research · investment writing · iOS development (Swift / SwiftUI) · design thinking · presenting &amp; defending a view</dd></div>
+            <div><dt>Credentials</dt><dd>IBF CMFAS M4 &amp; M4A · Claude 101 · HBS Mentorship Programme</dd></div>
+            <div><dt>Languages</dt><dd>English (fluent) · Mandarin (conversational)</dd></div>
+            <div class="sheet__actions">
+              <a class="btn btn--primary" href="assets/John_Ang_Jing_Hern_Resume.pdf" download>Download résumé</a>
+              <button class="btn" type="button" data-copy="john.ang.jing.hern@gmail.com">Copy email</button>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 EXPERIENCE ============ -->
+    <section class="section" id="experience" aria-labelledby="exp-h">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <p class="sec-num">02 — Experience</p>
+          <h2 id="exp-h">Where I've worked</h2>
+          <p class="sec-sub">Three very different seats: the analyst's desk, the developer's desk and the hiring side of the table.</p>
+        </header>
+
+        <ol class="timeline" id="timeline">
+          <li class="tl reveal">
+            <div class="tl__meta">
+              <time datetime="2025-08">Aug 2025</time> – <span>Present</span>
+            </div>
+            <div class="tl__body">
+              <h3>Analyst, Latin America <span class="at">· SMU Emerging Markets</span></h3>
+              <ul>
+                <li>Cover Latin America at the macro, industry and company level, presenting findings and investment views to the analyst team and wider club, and defending key assumptions and valuation drivers in Q&amp;A.</li>
+                <li>Authored a macro brief on <strong>Colombia for the FMCG sector</strong>, arguing that services-led growth, falling unemployment and disinflation create a supportive backdrop for consumer volumes.</li>
+                <li>Co-authored an industry brief on <strong>Chilean copper</strong>, establishing the country's structural advantage (21.3% of global reserves, 24% of global supply, US$637.4m of exploration capital in 2024) and linking 3.5% YoY output growth to renewable-energy and EV demand from Chinese and US buyers.</li>
+              </ul>
+              <p class="tags"><span>Macro research</span><span>Commodities</span><span>Investment writing</span><span>Public speaking</span></p>
+            </div>
+          </li>
+
+          <li class="tl reveal">
+            <div class="tl__meta">
+              <time datetime="2023-02">Feb 2023</time> – <time datetime="2023-10">Oct 2023</time>
+            </div>
+            <div class="tl__body">
+              <h3>Recruitment Officer / Marketing Associate <span class="at">· Great Eastern</span></h3>
+              <ul>
+                <li>Built outreach campaigns that marketed open positions across multiple business units to attract candidates.</li>
+                <li>Interviewed and assessed candidates for suitability, supporting hiring managers through to offer stage.</li>
+              </ul>
+              <p class="tags"><span>Interviewing</span><span>Campaign marketing</span><span>Stakeholder management</span></p>
+            </div>
+          </li>
+
+          <li class="tl reveal">
+            <div class="tl__meta">
+              <time datetime="2022-09">Sep 2022</time> – <time datetime="2023-02">Feb 2023</time>
+            </div>
+            <div class="tl__body">
+              <h3>Application Developer Intern <span class="at">· Pepperl+Fuchs</span></h3>
+              <ul>
+                <li>Sole developer of the iOS app for a new flagship sensor product, taking it from concept to working prototype with no other team members on the project.</li>
+                <li>Taught myself Swift and SwiftUI from scratch and used them directly in production feature development, including Bluetooth connectivity that lets users connect to and configure sensors, plus features not yet in the Android version.</li>
+                <li>Researched cross-platform frameworks for maintaining the app across iOS and Android.</li>
+                <li>Delivered the completed app <strong>about 3 months ahead</strong> of the supervising team's schedule.</li>
+              </ul>
+              <p class="tags"><span>Swift</span><span>SwiftUI</span><span>Bluetooth</span><span>UI planning</span></p>
+            </div>
+          </li>
+        </ol>
+
+        <div class="edu">
+          <article class="edu__card reveal" style="--d:0">
+            <p class="mono tiny muted">Aug 2025 – 2029 (expected)</p>
+            <h3>Singapore Management University</h3>
+            <p>Bachelor of Science in Economics</p>
+            <p class="muted">Writing &amp; Reasoning (A) · Management Communication (A-)</p>
+          </article>
+          <article class="edu__card reveal" style="--d:1">
+            <p class="mono tiny muted">Apr 2020 – Apr 2023</p>
+            <h3>Singapore Polytechnic</h3>
+            <p>Diploma in Engineering with Business</p>
+            <p class="muted">CGPA 3.70 / 4.00</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 WORK ============ -->
+    <section class="section" id="work" aria-labelledby="work-h">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <p class="sec-num">03 — Selected work</p>
+          <h2 id="work-h">Things I've researched, built and pitched</h2>
+          <p class="sec-sub">Filter by the kind of role you're hiring for. Open any card for the full story.</p>
+        </header>
+
+        <div class="filters reveal" role="group" aria-label="Filter work">
+          <button class="chip is-on" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip" type="button" data-filter="research" aria-pressed="false">Research &amp; markets</button>
+          <button class="chip" type="button" data-filter="tech" aria-pressed="false">Tech &amp; product</button>
+          <button class="chip" type="button" data-filter="strategy" aria-pressed="false">Strategy &amp; consulting</button>
+        </div>
+
+        <div class="grid" id="workGrid">
+          <article class="card card--wide reveal" data-tags="research strategy">
+            <p class="card__kicker">Macro brief · Jan 2026 · Sole author</p>
+            <h3>Colombia: positioned for growth through stability</h3>
+            <p>Why Colombia's services-led, consumption-driven recovery makes it one of Latin America's steadier backdrops for FMCG.</p>
+            <div class="mini-bars" aria-hidden="true">
+              <span style="--v:.79" class="hi"><i>COL</i></span>
+              <span style="--v:.6"><i>CHL</i></span>
+              <span style="--v:.6"><i>PER</i></span>
+              <span style="--v:.6"><i>MEX</i></span>
+              <span style="--v:.57"><i>BRA</i></span>
+            </div>
+            <p class="card__foot"><span>SMU Emerging Markets</span><span class="card__open">Read case <span aria-hidden="true">→</span></span></p>
+            <button class="card__hit" type="button" data-open="dlg-colombia" aria-label="Open case: Colombia macro brief"></button>
+          </article>
+
+          <article class="card reveal" data-tags="research">
+            <p class="card__kicker">Industry brief · Co-author</p>
+            <h3>Chilean copper's structural edge</h3>
+            <p>Reserves, supply share and exploration capital, linked to EV and renewables demand.</p>
+            <p class="card__big"><span class="count" data-to="24">24</span>%<small>of global copper supply</small></p>
+            <p class="card__foot"><span>SMU Emerging Markets</span><span class="card__open">Read case <span aria-hidden="true">→</span></span></p>
+            <button class="card__hit" type="button" data-open="dlg-copper" aria-label="Open case: Chilean copper brief"></button>
+          </article>
+
+          <article class="card reveal" data-tags="tech">
+            <p class="card__kicker">iOS app · Pepperl+Fuchs · 2022–23</p>
+            <h3>Bluetooth sensor app, built solo</h3>
+            <p>Self-taught Swift to build the iOS app for a flagship sensor product, from concept to prototype.</p>
+            <p class="card__big">~3<small>months ahead of schedule</small></p>
+            <p class="card__foot"><span>Swift · SwiftUI</span><span class="card__open">Read case <span aria-hidden="true">→</span></span></p>
+            <button class="card__hit" type="button" data-open="dlg-ios" aria-label="Open case: Bluetooth sensor iOS app"></button>
+          </article>
+
+          <article class="card reveal" data-tags="research strategy">
+            <p class="card__kicker">Equities competition · Dec 2025 – Mar 2026</p>
+            <h3>SGX Value-Up investment thesis</h3>
+            <p>Fundamental analysis of SGX-listed companies, built around value-up and capital-return themes.</p>
+            <p class="card__big">Top <span class="count" data-to="10">10</span>%<small>Fullerton / SGX challenge</small></p>
+            <p class="card__foot"><span>Fullerton Fund Management · SGX</span><span class="card__open">Read case <span aria-hidden="true">→</span></span></p>
+            <button class="card__hit" type="button" data-open="dlg-sgx" aria-label="Open case: SGX Value-Up thesis"></button>
+          </article>
+
+          <article class="card reveal" data-tags="strategy">
+            <p class="card__kicker">Business case · Feb – Jun 2022</p>
+            <h3>Growth plan for Fun Learners School</h3>
+            <p>Diagnosed a small business's pain points with its owner and designed a growth proposal they adopted.</p>
+            <p class="card__big card__big--text">Accepted<small>+ internship offer to implement it</small></p>
+            <p class="card__foot"><span>Heartland Innovation Competition</span><span class="card__open">Read case <span aria-hidden="true">→</span></span></p>
+            <button class="card__hit" type="button" data-open="dlg-heartland" aria-label="Open case: Fun Learners School growth plan"></button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04 SKILLS & CREDENTIALS ============ -->
+    <section class="section" id="skills" aria-labelledby="skills-h">
+      <div class="wrap">
+        <header class="sec-head reveal">
+          <p class="sec-num">04 — Skills &amp; credentials</p>
+          <h2 id="skills-h">What I bring to the desk</h2>
+        </header>
+
+        <div class="skills">
+          <div class="skill-col reveal" style="--d:0">
+            <h3><span class="dot" aria-hidden="true"></span>Research &amp; finance</h3>
+            <ul class="pills">
+              <li>Macroeconomic analysis</li><li>Industry research</li><li>Fundamental analysis</li><li>Investment writing</li><li>Commodities (copper)</li><li>Latin American markets</li><li>Microsoft Excel</li>
+            </ul>
+          </div>
+          <div class="skill-col reveal" style="--d:1">
+            <h3><span class="dot" aria-hidden="true"></span>Technology</h3>
+            <ul class="pills">
+              <li>Swift</li><li>SwiftUI</li><li>iOS app development</li><li>Bluetooth apps</li><li>Claude AI / Claude Code</li><li>Microsoft PowerPoint &amp; Word</li>
+            </ul>
+          </div>
+          <div class="skill-col reveal" style="--d:2">
+            <h3><span class="dot" aria-hidden="true"></span>People &amp; communication</h3>
+            <ul class="pills">
+              <li>Presenting &amp; Q&amp;A</li><li>Interviewing candidates</li><li>Campaign marketing</li><li>Design thinking</li><li>Problem solving</li><li>English &amp; Mandarin</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="certs">
+          <article class="cert reveal" style="--d:0">
+            <p class="mono tiny muted">2025</p>
+            <h3>IBF CMFAS — Modules 4 &amp; 4A</h3>
+            <p>Qualifying examinations for regulated capital-markets and financial-advisory activities in Singapore.</p>
+            <p class="cert__by">Institute of Banking and Finance Singapore</p>
+          </article>
+          <article class="cert cert--img reveal" style="--d:1">
+            <button class="cert__thumb" type="button" data-open="dlg-cert" aria-label="View Claude 101 certificate">
+              <img src="assets/img/claude101-certificate.jpg" alt="Claude 101 certificate of participation awarded to John Ang" width="1080" height="760" loading="lazy">
+            </button>
+            <p class="mono tiny muted">2026</p>
+            <h3>Claude 101</h3>
+            <p>Pathway to Claude Certified Architect – Foundations. Hands-on with Claude and Claude Code.</p>
+            <p class="cert__by">Claude Singapore Community × ClaudeLabs</p>
+          </article>
+          <article class="cert reveal" style="--d:2">
+            <p class="mono tiny muted">2022</p>
+            <h3>Harvard Business School Mentorship Programme</h3>
+            <p>Structured mentorship covering business strategy, case-based problem solving and professional development.</p>
+            <p class="cert__by">Harvard Business School</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05 ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-h">
+      <div class="wrap about">
+        <div class="about__photos reveal">
+          <figure class="photo photo--a" data-parallax="-0.06">
+            <img src="assets/img/horse-trek.jpg" alt="John on horseback on a misty grassland ridge" width="1400" height="1120" loading="lazy">
+            <figcaption>Horse trekking · May 2026</figcaption>
+          </figure>
+          <figure class="photo photo--b" data-parallax="0.08">
+            <img src="assets/img/highlands.jpg" alt="John lying in a green valley below snow-capped mountains" width="1050" height="1400" loading="lazy">
+            <figcaption>Kazakhstan highlands</figcaption>
+          </figure>
+        </div>
+        <div class="about__copy">
+          <header class="sec-head reveal">
+            <p class="sec-num">05 — About</p>
+            <h2 id="about-h">Engineer by training, economist by choice</h2>
+          </header>
+          <div class="reveal prose">
+            <p>I started in engineering and business at Singapore Polytechnic, where I learned to break a messy problem into pieces small enough to solve. At Pepperl+Fuchs that meant teaching myself Swift to build an app no one else on the team could. At Great Eastern it meant learning what makes a candidate stand out, from the other side of the interview table.</p>
+            <p>Economics at SMU is where those threads meet. Researching Latin American markets uses the same instinct as debugging code: find the driver that actually moves the system, test the assumption, and be ready to defend it in Q&amp;A.</p>
+            <p>I'm looking for <strong>2027 internships in investment research, markets or strategy</strong>, where I can bring analytical rigour and a builder's bias to ship.</p>
+          </div>
+          <ul class="offclock reveal">
+            <li><span class="mono tiny muted">Volunteering</span><strong>SMU EMBER</strong> — running regular engagement sessions for elderly beneficiaries, from mahjong afternoons to organised outings (Jan 2026 – present).</li>
+            <li><span class="mono tiny muted">Outdoors</span><strong>Hiking &amp; horse trekking</strong> — most recently across the highlands of Kazakhstan.</li>
+            <li><span class="mono tiny muted">Languages</span><strong>English</strong> (fluent) · <strong>Mandarin</strong> (conversational)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06 CONTACT ============ -->
+    <section class="section contact" id="contact" aria-labelledby="contact-h">
+      <div class="wrap">
+        <p class="sec-num reveal">06 — Contact</p>
+        <h2 class="contact__title reveal" id="contact-h">Let's <span class="serif-i accent">talk.</span></h2>
+        <p class="contact__lede reveal">Hiring for an internship in research, markets or strategy? I'd love to hear about it.</p>
+        <div class="contact__row reveal">
+          <a class="contact__email" href="mailto:john.ang.jing.hern@gmail.com">john.ang.jing.hern@gmail.com</a>
+          <button class="icon-btn" type="button" data-copy="john.ang.jing.hern@gmail.com" aria-label="Copy email address">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2.5"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2"/></svg>
+          </button>
+        </div>
+        <div class="hero__cta reveal">
+          <a class="btn btn--primary magnetic" href="mailto:john.ang.jing.hern@gmail.com">Email me</a>
+          <a class="btn" href="https://www.linkedin.com/in/johnangjh" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a class="btn" href="assets/John_Ang_Jing_Hern_Resume.pdf" download>Résumé <span class="muted">PDF</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>© 2026 John Ang Jing Hern · Singapore</p>
+      <p class="muted">Designed &amp; built with Claude Code · Updated October 2026</p>
+    </div>
+  </footer>
+
+  <!-- ============ CASE STUDY DIALOGS ============ -->
+  <dialog class="dlg" id="dlg-colombia" aria-labelledby="dlg-colombia-h">
+    <div class="dlg__inner">
+      <button class="dlg__close" type="button" aria-label="Close">×</button>
+      <p class="card__kicker">Macro brief · SMU Emerging Markets · January 2026 · Sole author</p>
+      <h2 id="dlg-colombia-h">Colombia: positioned for growth through stability</h2>
+      <p class="dlg__lede"><strong>Thesis.</strong> Colombia's recovery is domestically driven and services-led, which makes it one of Latin America's more stable consumption stories and a supportive backdrop for FMCG companies.</p>
+
+      <figure class="exhibit">
+        <figcaption><span class="mono tiny">Exhibit 1</span> Real GDP growth forecast for 2026 (%)</figcaption>
+        <svg viewBox="0 0 520 210" class="range-chart" role="img" aria-label="2026 GDP growth forecasts: Colombia 2.5 to 3.0 percent; Chile 2.0 to 2.2; Peru 2.0 to 2.2; Mexico about 2.1; Brazil about 2.0.">
+          <g class="rc__grid">
+            <line x1="90" x2="90" y1="10" y2="180"/><line x1="200" x2="200" y1="10" y2="180"/><line x1="310" x2="310" y1="10" y2="180"/><line x1="420" x2="420" y1="10" y2="180"/>
+            <text x="90" y="200">0%</text><text x="200" y="200">1%</text><text x="310" y="200">2%</text><text x="420" y="200">3%</text>
+          </g>
+          <g class="rc__rows">
+            <g class="rc__row hi"><text x="0" y="31">Colombia</text><rect x="90" y="18" height="18" width="302.5" style="--i:0"/><path class="wh" d="M365 19v16M365 27H420M420 19v16"/><text class="val" x="430" y="31">2.5–3.0</text></g>
+            <g class="rc__row"><text x="0" y="65">Chile</text><rect x="90" y="52" height="18" width="231" style="--i:1"/><path class="wh" d="M310 53v16M310 61H332M332 53v16"/><text class="val" x="342" y="65">2.0–2.2</text></g>
+            <g class="rc__row"><text x="0" y="99">Peru</text><rect x="90" y="86" height="18" width="231" style="--i:2"/><path class="wh" d="M310 87v16M310 95H332M332 87v16"/><text class="val" x="342" y="99">2.0–2.2</text></g>
+            <g class="rc__row"><text x="0" y="133">Mexico</text><rect x="90" y="120" height="18" width="231" style="--i:3"/><text class="val" x="331" y="133">~2.1</text></g>
+            <g class="rc__row"><text x="0" y="167">Brazil</text><rect x="90" y="154" height="18" width="220" style="--i:4"/><text class="val" x="320" y="167">~2.0</text></g>
+          </g>
+        </svg>
+        <p class="exhibit__src">Bars show the midpoint; whiskers show the forecast range. Source: IMF projections, as cited in the brief.</p>
+      </figure>
+
+      <div class="kpis">
+        <div><p class="kpi__num">&gt;65%</p><p>of GDP from services: growth tracks household demand, not commodity prices</p></div>
+        <div><p class="kpi__num"><span class="down-good">11% → 9–9.5%</span></p><p>unemployment, 2023 to 2025, driven by job creation in services and logistics</p></div>
+        <div><p class="kpi__num"><span class="down-good">13% → ~6%</span></p><p>inflation, early 2023 to late 2025, turning real wage growth positive</p></div>
+      </div>
+
+      <h3>How the argument runs</h3>
+      <ol class="steps">
+        <li><strong>Growth composition.</strong> Unlike copper-exposed Chile or extractives-heavy Peru, Colombia's output is dominated by retail, financial services, transport and business services, which smooths growth through commodity cycles.</li>
+        <li><strong>Labour market.</strong> Policies that cut non-wage hiring costs and encouraged formalisation helped private-sector job creation, particularly at SMEs.</li>
+        <li><strong>Real incomes.</strong> Faster disinflation than Brazil or Mexico lifted household purchasing power, feeding spending on food, beverages and everyday goods.</li>
+        <li><strong>So what for FMCG.</strong> Employment growth plus positive real wages supports sustained volume growth for consumer staples.</li>
+      </ol>
+      <p class="muted small">Sources used: IMF, DANE national accounts, Banco de la República, World Bank Colombia Update, Trading Economics, Bloomberg. The full brief is internal club research and is available on request.</p>
+    </div>
+  </dialog>
+
+  <dialog class="dlg" id="dlg-copper" aria-labelledby="dlg-copper-h">
+    <div class="dlg__inner">
+      <button class="dlg__close" type="button" aria-label="Close">×</button>
+      <p class="card__kicker">Industry brief · SMU Emerging Markets · Co-author</p>
+      <h2 id="dlg-copper-h">Chilean copper's structural edge</h2>
+      <p class="dlg__lede"><strong>Thesis.</strong> Chile's copper advantage is structural, not cyclical: the world's deepest reserve base, the largest share of supply and continued exploration spending, with demand pulled forward by the energy transition.</p>
+      <div class="kpis kpis--4">
+        <div><p class="kpi__num"><span class="count" data-to="21.3" data-dec="1">21.3</span>%</p><p>of global copper reserves</p></div>
+        <div><p class="kpi__num"><span class="count" data-to="24">24</span>%</p><p>of global copper supply</p></div>
+        <div><p class="kpi__num">US$<span class="count" data-to="637.4" data-dec="1">637.4</span>m</p><p>exploration capital in 2024</p></div>
+        <div><p class="kpi__num up">+<span class="count" data-to="3.5" data-dec="1">3.5</span>%</p><p>output growth year on year</p></div>
+      </div>
+      <h3>What I worked on</h3>
+      <ul class="steps steps--plain">
+        <li>Established Chile's position using reserve, supply and exploration-capital data.</li>
+        <li>Linked output growth to accelerating renewable-energy and EV demand from Chinese and US buyers.</li>
+        <li>Presented the view to the analyst team and wider club, and defended the key assumptions in Q&amp;A.</li>
+      </ul>
+      <a class="btn btn--primary" href="https://drive.google.com/file/d/12-Gx4PVcEDuM5DrnlTFYcWejdj7AF-4R/view?usp=sharing" target="_blank" rel="noopener">Read the brief <span aria-hidden="true">↗</span></a>
+    </div>
+  </dialog>
+
+  <dialog class="dlg" id="dlg-ios" aria-labelledby="dlg-ios-h">
+    <div class="dlg__inner dlg__inner--split">
+      <button class="dlg__close" type="button" aria-label="Close">×</button>
+      <figure class="dlg__photo">
+        <img src="assets/img/pepperl-fuchs.jpg" alt="John at the Pepperl+Fuchs office in Singapore" width="825" height="1100" decoding="async">
+        <figcaption>Pepperl+Fuchs, Singapore</figcaption>
+      </figure>
+      <div>
+        <p class="card__kicker">Application Developer Intern · Pepperl+Fuchs · Sep 2022 – Feb 2023</p>
+        <h2 id="dlg-ios-h">A Bluetooth sensor app, built solo</h2>
+        <p class="dlg__lede">Pepperl+Fuchs, a global industrial-sensor maker, needed an iOS version of the companion app for a new flagship product, letting users connect to and adjust their sensors from a phone.</p>
+        <h3>The challenge</h3>
+        <p>I was the only developer on the project, and I had never written Swift.</p>
+        <h3>What I did</h3>
+        <ul class="steps steps--plain">
+          <li>Taught myself Swift and SwiftUI, then planned the app's UI around how customers would actually use it.</li>
+          <li>Implemented the Bluetooth connection to the sensors, plus features that weren't yet in the Android version.</li>
+          <li>Researched third-party and cross-platform tools for maintaining one app across iOS and Android.</li>
+          <li>Wrote and documented the code so the team could maintain it after I left.</li>
+        </ul>
+        <h3>Result</h3>
+        <p>Delivered a working prototype <strong>about 3 months ahead</strong> of the schedule set by the supervising team.</p>
+        <p class="tags"><span>Swift</span><span>SwiftUI</span><span>Bluetooth</span><span>iOS</span><span>Documentation</span></p>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="dlg" id="dlg-sgx" aria-labelledby="dlg-sgx-h">
+    <div class="dlg__inner">
+      <button class="dlg__close" type="button" aria-label="Close">×</button>
+      <p class="card__kicker">Fullerton / SGX Value-Up Singapore Equities Challenge · Dec 2025 – Mar 2026</p>
+      <h2 id="dlg-sgx-h">An SGX Value-Up investment thesis</h2>
+      <p class="dlg__lede">A Singapore-listed equities case competition built around the market's "value-up" push: getting listed companies to improve capital allocation and returns to shareholders.</p>
+      <div class="kpis">
+        <div><p class="kpi__num">Top 10%</p><p>final placing</p></div>
+        <div><p class="kpi__num">SGX</p><p>listed companies analysed</p></div>
+        <div><p class="kpi__num">Value-up</p><p>and capital-return themes</p></div>
+      </div>
+      <h3>What I did</h3>
+      <ul class="steps steps--plain">
+        <li>Performed fundamental analysis on SGX-listed companies.</li>
+        <li>Built an investment thesis around value-up and capital-return themes.</li>
+        <li>Presented and defended the thesis to finish in the top 10% of competitors.</li>
+      </ul>
+    </div>
+  </dialog>
+
+  <dialog class="dlg" id="dlg-heartland" aria-labelledby="dlg-heartland-h">
+    <div class="dlg__inner">
+      <button class="dlg__close" type="button" aria-label="Close">×</button>
+      <p class="card__kicker">Heartland Innovation Competition · Feb – Jun 2022</p>
+      <h2 id="dlg-heartland-h">A growth plan for Fun Learners School</h2>
+      <p class="dlg__lede">Partnered with a neighbourhood education business to find out what was holding it back, then designed a plan to grow it.</p>
+      <ol class="steps">
+        <li><strong>Diagnose.</strong> Worked alongside the owner to understand the business first-hand and map its operational and commercial pain points.</li>
+        <li><strong>Design.</strong> Applied design thinking to turn those pain points into a full growth proposal.</li>
+        <li><strong>Deliver.</strong> The company accepted the proposal, and I was offered an internship to implement the solution directly.</li>
+      </ol>
+    </div>
+  </dialog>
+
+  <dialog class="dlg dlg--image" id="dlg-cert" aria-label="Claude 101 certificate">
+    <div class="dlg__inner">
+      <button class="dlg__close" type="button" aria-label="Close">×</button>
+      <img src="assets/img/claude101-certificate.jpg" alt="Claude 101 Certificate of Participation awarded to John Ang. Pathway to Claude Certified Architect – Foundations. Issued by Claude Singapore Community and ClaudeLabs." width="1080" height="760" loading="lazy">
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

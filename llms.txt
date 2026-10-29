@@ -1,0 +1,32 @@
+# John Ang Jing Hern
+
+> Economics undergraduate at Singapore Management University (SMU) and Latin America analyst at SMU Emerging Markets, with prior experience as a sole iOS developer (Swift, SwiftUI) and as a recruiter. Based in Singapore. Open to 2027 internships in investment research, markets and strategy.
+
+## Contact
+- Email: john.ang.jing.hern@gmail.com
+- LinkedIn: https://www.linkedin.com/in/johnangjh
+- Résumé (PDF): https://johnangjh.github.io/assets/John_Ang_Jing_Hern_Resume.pdf
+
+## Education
+- Singapore Management University — BSc Economics, Aug 2025 – 2029 (expected). Writing and Reasoning (A), Management Communication (A-).
+- Singapore Polytechnic — Diploma in Engineering with Business, Apr 2020 – Apr 2023. CGPA 3.70/4.00.
+
+## Experience
+- SMU Emerging Markets — Analyst, Latin America (Aug 2025 – present). Macro, industry and company research; presents and defends investment views. Sole author of a Colombia macro brief for the FMCG sector (Jan 2026). Co-author of an industry brief on Chilean copper (21.3% of global reserves, 24% of global supply, US$637.4m exploration capital in 2024, 3.5% YoY output growth).
+- Great Eastern — Recruitment Officer / Marketing Associate (Feb 2023 – Oct 2023). Outreach campaigns for open roles across business units; interviewed and assessed candidates through to offer stage.
+- Pepperl+Fuchs — Application Developer Intern (Sep 2022 – Feb 2023). Sole developer of the iOS Bluetooth companion app for a new flagship sensor product; self-taught Swift and SwiftUI; delivered about 3 months ahead of schedule.
+
+## Competitions
+- Fullerton / SGX Value-Up Singapore Equities Challenge (Dec 2025 – Mar 2026): top 10%.
+- Heartland Innovation Competition (Feb – Jun 2022): growth proposal for Fun Learners School accepted; offered an internship to implement it.
+
+## Certifications
+- IBF CMFAS Modules 4 and 4A (2025)
+- Claude 101: Pathway to Claude Certified Architect – Foundations, Claude Singapore Community × ClaudeLabs (2026)
+- Harvard Business School Mentorship Programme (2022)
+
+## Skills
+Macroeconomic and industry research, fundamental analysis, investment writing, Microsoft Excel, Swift, SwiftUI, iOS development, Claude AI, design thinking, presenting, interviewing. Languages: English (fluent), Mandarin (conversational).
+
+## Volunteering
+- SMU EMBER (Jan 2026 – present): engagement sessions and outings for elderly beneficiaries.
