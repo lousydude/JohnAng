@@ -13,9 +13,9 @@ Plain HTML, CSS and JavaScript. No build step and no frameworks, so it runs on a
 | `index.html` | All page content. Edit text here. |
 | `styles.css` | Colours, fonts, layout, animations. Colour tokens are at the top. |
 | `script.js` | Interactions: career chart, filters, pop-ups, theme toggle, counters. |
-| `assets/John_Ang_Jing_Hern_Resume.pdf` | The résumé the download buttons serve. Replace it with a new file of the **same name** to update. |
-| `assets/og-image.jpg` | The preview image LinkedIn/WhatsApp show when the link is shared. |
-| `assets/img/` | Photos and the Claude 101 certificate (resized, location data removed). |
+| `John_Ang_Jing_Hern_Resume.pdf` | The résumé the download buttons serve. Replace it with a new file of the **same name** to update. |
+| `og-image.jpg` | The preview image LinkedIn/WhatsApp show when the link is shared. |
+| `horse-trek.jpg`, `highlands.jpg`, `pepperl-fuchs.jpg`, `claude101-certificate.jpg` | Photos and the Claude 101 certificate (resized, location data removed). |
 | `llms.txt` | Plain-text summary for AI tools and screeners. Keep it in sync with the résumé. |
 | `robots.txt`, `sitemap.xml` | Help search engines find the site. |
 | `.nojekyll` | Tells GitHub Pages to serve files as-is. |
@@ -23,7 +23,7 @@ Plain HTML, CSS and JavaScript. No build step and no frameworks, so it runs on a
 ## Updating the site
 
 1. Open the repo on github.com and click **Add file → Upload files**.
-2. In File Explorer, open this folder, select **everything inside it** (including the `assets` folder) and **drag** it onto the page. Dragging keeps the folder structure; the "choose your files" button can't upload folders.
+2. Select the changed files (or everything in this folder) and drag them onto the page. All files sit at the top level, with no subfolders, so any upload method works.
 3. Choose **Commit directly to the `main` branch** and click **Commit changes**.
 4. Wait 1–2 minutes, then refresh the live site (Ctrl+F5 to skip the cache).
 
