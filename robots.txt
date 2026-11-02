@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://johnangjh.github.io/sitemap.xml
+Sitemap: https://lousydude.github.io/JohnAng/sitemap.xml

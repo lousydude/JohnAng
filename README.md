@@ -1,4 +1,6 @@
-# johnangjh.github.io
+# John Ang Jing Hern — personal site
+
+Live at **https://lousydude.github.io/JohnAng/**
 
 Personal website of **John Ang Jing Hern**: Economics @ SMU, LatAm analyst at SMU Emerging Markets, self-taught iOS developer.
 
@@ -13,24 +15,21 @@ Plain HTML, CSS and JavaScript. No build step and no frameworks, so it runs on a
 | `script.js` | Interactions: career chart, filters, pop-ups, theme toggle, counters. |
 | `assets/John_Ang_Jing_Hern_Resume.pdf` | The résumé the download buttons serve. Replace it with a new file of the **same name** to update. |
 | `assets/og-image.jpg` | The preview image LinkedIn/WhatsApp show when the link is shared. |
-| `assets/img/` | Photos (resized, location data removed). |
+| `assets/img/` | Photos and the Claude 101 certificate (resized, location data removed). |
 | `llms.txt` | Plain-text summary for AI tools and screeners. Keep it in sync with the résumé. |
 | `robots.txt`, `sitemap.xml` | Help search engines find the site. |
 | `.nojekyll` | Tells GitHub Pages to serve files as-is. |
 
-## Publish on GitHub Pages (free)
+## Updating the site
 
-1. Sign up at github.com. Username **johnangjh** matches LinkedIn and is already used in the site's links.
-2. Click **+** → **New repository**. Name it exactly `johnangjh.github.io`, set it to **Public**, and create it.
-3. On the empty repo page, click **uploading an existing file**. Drag in everything **inside** this folder (not the folder itself), then click **Commit changes**.
-4. Go to **Settings** → **Pages**. Under *Build and deployment*, choose **Deploy from a branch**, branch **main**, folder **/ (root)**, then **Save**.
-5. After 1–2 minutes the site is live at **https://johnangjh.github.io**.
+1. Open the repo on github.com and click **Add file → Upload files**.
+2. In File Explorer, open this folder, select **everything inside it** (including the `assets` folder) and **drag** it onto the page. Dragging keeps the folder structure; the "choose your files" button can't upload folders.
+3. Choose **Commit directly to the `main` branch** and click **Commit changes**.
+4. Wait 1–2 minutes, then refresh the live site (Ctrl+F5 to skip the cache).
 
-If you pick a different username, replace every `johnangjh.github.io` with `<your-username>.github.io` in `index.html`, `llms.txt`, `robots.txt` and `sitemap.xml`.
+Uploading a file with the same name replaces the old copy.
 
-## Updating later
-
-Open the file on github.com, click the pencil icon, edit and commit. The live site updates in about a minute.
+If you rename the repo, the address changes too. Replace every `lousydude.github.io/JohnAng/` with the new address in `index.html`, `llms.txt`, `robots.txt` and `sitemap.xml`.
 
 ## Before you share it
 
